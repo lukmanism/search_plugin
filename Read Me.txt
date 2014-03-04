@@ -1,0 +1,10 @@
+Included Files:
+
+index.php				- Basic HTML page, with search plugin's elements
+keywords.php				- Server side plugin page
+search.sql				- Search Plugin tables
+includes\css\styles.css			- Stylesheets, optional
+includes\images\close_button.png	- Image asset
+includes\images\search24.png		- Image asset
+includes\js\search.js			- Plugin's js file
+includes\js\jquery.easyMark.js		- Plugin's js file (addons)

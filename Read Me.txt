@@ -6,5 +6,15 @@ search.sql				- Search Plugin tables
 includes\css\styles.css			- Stylesheets, optional
 includes\images\close_button.png	- Image asset
 includes\images\search24.png		- Image asset
-includes\js\search.js			- Plugin's js file
-includes\js\jquery.easyMark.js		- Plugin's js file (addons)
+includes\js\search.js			- Plugins' js file
+includes\js\jquery.easyMark.js		- Plugins' js file (addons)
+
+
+plugin_keywordGenerator\		- Plugins' Batch tag creation
+
+
+Installation
+1. Run search.sql in your designated database
+2. Update mysql credential from keywords.php & plugin_keywordGenerator/index.php
+3. From plugin_keywordGenerator/index.php, edit $table value accordingly
+3. Execute plugin_keywordGenerator/ on your server. This will initiate tags creation and store it the db. Ideally this should be run anytime there's an update from the assigned $table values.
